@@ -21,6 +21,8 @@
     <a href="#about-the-project"><strong>Explore the notebook »</strong></a>
     <br />
     <br />
+    <a href="[#usage](https://crop-yield-prediction-per-country-rdqzpyneruf3l5fwdllgqd.streamlit.app/)">Live demo</a>
+    &middot;
     <a href="#usage">View Usage</a>
     &middot;
     <a href="#results">View Results</a>
