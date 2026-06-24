@@ -12,17 +12,13 @@
 <br />
 <div align="center">
   <img src="https://img.icons8.com/color/96/wheat.png" alt="Logo" width="80" height="80">
-
   <h3 align="center">Crop Yield Prediction Per Country</h3>
 
   <p align="center">
     A supervised machine learning regression model that predicts crop yield (hg/ha) for a given country, crop, year, rainfall, pesticide usage, and average temperature.
     <br />
-    <a href="#about-the-project"><strong>Explore the notebook »</strong></a>
     <br />
     <br />
-    <a href="[#usage](https://crop-yield-prediction-per-country-rdqzpyneruf3l5fwdllgqd.streamlit.app/)">Live demo</a>
-    &middot;
     <a href="#usage">View Usage</a>
     &middot;
     <a href="#results">View Results</a>
@@ -30,6 +26,7 @@
     <a href="#contact">Contact</a>
   </p>
 </div>
+
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -281,6 +278,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Salman Khan — AI/ML/DL Engineer — Abdul Wali Khan University Mardan — khanhackersalman@gmail.com
 
 Project Link: https://github.com/itxsalmannkhann/Crop-Yield-Prediction-Per-Country/
+
+Project Live Demo: https://crop-yield-prediction-per-country-rdqzpyneruf3l5fwdllgqd.streamlit.app/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
