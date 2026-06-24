@@ -1,10 +1,17 @@
+import os
 import streamlit as st
 import numpy as np
 import pickle
 
+# Build paths relative to this script's location (not the working directory),
+# so it works the same locally and on Streamlit Cloud regardless of how the
+# app is launched.
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODELS_DIR = os.path.join(BASE_DIR, '..', 'Models')
+
 # Load the trained model and preprocessor
-knr = pickle.load(open('../Models/knr.pkl', 'rb'))
-preprocessor = pickle.load(open('../Models/preprocessor.pkl', 'rb'))
+knr = pickle.load(open(os.path.join(MODELS_DIR, 'knr.pkl'), 'rb'))
+preprocessor = pickle.load(open(os.path.join(MODELS_DIR, 'preprocessor.pkl'), 'rb'))
 
 # Page configuration
 st.set_page_config(page_title="Crop Yield Prediction", page_icon="🌾", layout="centered")
