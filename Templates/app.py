@@ -3,8 +3,8 @@ import numpy as np
 import pickle
 
 # Load the trained model and preprocessor
-knr = pickle.load(open('knr.pkl', 'rb'))
-preprocessor = pickle.load(open('preprocessor.pkl', 'rb'))
+knr = pickle.load(open('../Models/knr.pkl', 'rb'))
+preprocessor = pickle.load(open('../Models/preprocessor.pkl', 'rb'))
 
 # Page configuration
 st.set_page_config(page_title="Crop Yield Prediction", page_icon="🌾", layout="centered")
