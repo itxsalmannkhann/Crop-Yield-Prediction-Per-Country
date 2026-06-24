@@ -17,7 +17,7 @@ preprocessor = pickle.load(open(os.path.join(MODELS_DIR, 'preprocessor.pkl'), 'r
 st.set_page_config(page_title="Crop Yield Prediction", page_icon="🌾", layout="centered")
 
 st.markdown(
-    "<h1 style='text-align: center; color: #2e7d32;'>Crop Yield Prediction Per Country</h1>",
+    "<h1 style='text-align: center; color: #0336DD;'>Crop Yield Prediction Per Country</h1>",
     unsafe_allow_html=True
 )
 st.markdown(
