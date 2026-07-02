@@ -12,7 +12,7 @@
 <br />
 <div align="center">
   <img src="https://img.icons8.com/color/96/wheat.png" alt="Logo" width="80" height="80">
-  <h3 align="center">Crop Yield Prediction Per Country</h3>
+  <h3 align="center">AgriYield Predictor</h3>
 
   <p align="center">
     A supervised machine learning regression model that predicts crop yield (hg/ha) for a given country, crop, year, rainfall, pesticide usage, and average temperature.
