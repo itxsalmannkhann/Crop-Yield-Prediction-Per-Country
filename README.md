@@ -248,7 +248,7 @@ crop-yield-prediction/
 - [ ] Deploy as an interactive web app for live predictions
 - [ ] Add more recent years of data
 
-See the [open issues](https://github.com/your_username/crop-yield-prediction/issues) for a full list of proposed features.
+See the [open issues](https://github.com/itxsalmannkhann/crop-yield-prediction/issues) for a full list of proposed features.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -279,7 +279,7 @@ Salman Khan — AI/ML/DL Engineer — Abdul Wali Khan University Mardan — khan
 
 Project Link: https://github.com/itxsalmannkhann/Crop-Yield-Prediction-Per-Country/
 
-Project Live Demo: https://crop-yield-prediction-per-country-rdqzpyneruf3l5fwdllgqd.streamlit.app/
+Project Live Demo: https://agriyieldpredictor.streamlit.app/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
