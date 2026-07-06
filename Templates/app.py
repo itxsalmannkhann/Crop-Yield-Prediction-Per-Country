@@ -125,7 +125,7 @@ st.markdown(
     .card {
         background: #ffffff;
         border-radius: 18px;
-        padding: 26px 28px;
+        padding: 15px 15px;
         box-shadow: 0 8px 26px rgba(30, 80, 40, 0.08);
         border: 1px solid rgba(46, 125, 50, 0.10);
         height: 100%;
@@ -134,7 +134,7 @@ st.markdown(
         font-size: 1.1rem;
         font-weight: 700;
         color: #1b5e20;
-        margin: 0 0 4px 0;
+        margin: 0 0 0 0;
         display: flex;
         align-items: center;
         gap: 8px;
@@ -142,7 +142,7 @@ st.markdown(
     .card-sub {
         font-size: 0.82rem;
         color: #78909c;
-        margin-bottom: 16px;
+        # margin-bottom: 16px;
     }
 
     /* Inputs */
@@ -241,10 +241,11 @@ st.write("")
 left, right = st.columns(2, gap="large")
 
 with left:
-    st.markdown('<div class="card">', unsafe_allow_html=True)
-    st.markdown('<div class="card-title">🌍 Crop & Location</div>', unsafe_allow_html=True)
-    st.markdown('<div class="card-sub">Choose where and what you are growing.</div>', unsafe_allow_html=True)
-
+    st.markdown('<div class="card">'
+                '<div class="card-title">🌍 Crop & Location</div>'
+                '<div class="card-sub">Choose where and what you are growing.</div>'
+                , unsafe_allow_html=True)
+    
     if AREAS:
         Area = st.selectbox("Country / Area", AREAS, index=AREAS.index("India") if "India" in AREAS else 0)
     else:
@@ -259,9 +260,11 @@ with left:
     st.markdown("</div>", unsafe_allow_html=True)
 
 with right:
-    st.markdown('<div class="card">', unsafe_allow_html=True)
-    st.markdown('<div class="card-title">🌦️ Environmental Conditions</div>', unsafe_allow_html=True)
-    st.markdown('<div class="card-sub">Enter the seasonal climate and farming inputs.</div>', unsafe_allow_html=True)
+    st.markdown('<div class="card">'\
+    '<div class="card-title">🌦️ Environmental Conditions</div>'\
+    '<div class="card-sub">Enter the seasonal climate and farming inputs.</div>', 
+    unsafe_allow_html=True)
+
 
     average_rain_fall_mm_per_year = st.number_input(
         "Average Rainfall (mm / year)", min_value=0.0, value=1485.0, step=1.0
