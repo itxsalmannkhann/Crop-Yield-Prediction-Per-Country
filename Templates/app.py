@@ -126,6 +126,7 @@ st.markdown(
         background: #ffffff;
         border-radius: 18px;
         padding: 15px 15px;
+        margin-bottom: 16px;
         box-shadow: 0 8px 26px rgba(30, 80, 40, 0.08);
         border: 1px solid rgba(46, 125, 50, 0.10);
         height: 100%;
