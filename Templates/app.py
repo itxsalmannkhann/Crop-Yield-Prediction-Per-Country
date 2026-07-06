@@ -81,6 +81,7 @@ st.markdown(
     .hero {
         background: linear-gradient(120deg, #1b5e20 0%, #2e7d32 45%, #43a047 100%);
         border-radius: 22px;
+        margin-top: 38px;
         padding: 38px 40px;
         color: #ffffff;
         box-shadow: 0 18px 40px rgba(27, 94, 32, 0.28);
