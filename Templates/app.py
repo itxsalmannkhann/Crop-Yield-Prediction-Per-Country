@@ -142,7 +142,6 @@ st.markdown(
     .card-sub {
         font-size: 0.82rem;
         color: #78909c;
-        # margin-bottom: 16px;
     }
 
     /* Inputs */
